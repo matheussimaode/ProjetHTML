@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+	<title>JavaScript</title>
+	<script>
+		var counter=10;
+		var intervalId= null;
+		
+		function finish() {
+		 clearInterval(intervalId);
+		 document.getElementById("bip").innerHTML="Acabou!";
+		 }
+		 function bip() {
+		 if(counter == 0) finish();
+		 else{
+		 document.getElementById("bip").innerHTML = counter + " segundos ";
+		 }
+		 
+		counter --;
+		}
+		function start() { intervalId= setInterval(bip,1000);
+		}
+	</script>
+</head>
+
+	<body>
+	<button onclick="start()"> Iniciar Contador </button>
+	<div id="bip"></div>
+</body>
+
+</html>

@@ -1,0 +1,55 @@
+.quadrado{
+	position: absolute;
+	top: 0px;
+	left: 300px;
+	width: 750px;
+	height: 400px;
+	background-color: #0000ff;
+}
+.quadrado2{
+	position: absolute;
+	top: 400px;
+	left: 300px;
+	width: 750px;
+	height:300px;
+	background-color: #0000ff;
+}
+.quadrado3{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 300px;
+	height: 1300px;
+	background-color: #000000;
+ }
+.quadrado4{
+	position: absolute;
+	top: 0px;
+	left: 1000px;
+	width: 500px;
+	height: 1300px;
+	background-color: #000000;
+}
+
+.quadrado5{
+	position: absolute;
+	top: 700px;
+	left: 300px;
+	width: 500px;
+	height: 100px;
+	background-color: #000000;
+}
+.quadrado6{
+	position: absolute;
+	top: 1199px;
+	left: 0px;
+	width: 1500px;
+	height:100px;
+	background-color: #0000ff;
+}
+
+
+
+
+
+	
